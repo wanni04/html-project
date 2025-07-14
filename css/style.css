@@ -1,0 +1,254 @@
+body {
+margin:0;
+}
+#main-div {
+width:80%;
+margin: 0 auto 0 auto;
+}
+#header-div {
+max-height:64px;
+width:100%;
+display:flex;
+}
+.inner-header {
+background-color:white;
+}
+#header-logo {
+background-color: white;
+width: 15%;
+font-size: 36px;
+font-family: "Lilita One", sans-serif;
+font-weight: 400;
+font-style: normal;
+color:purple;
+}
+#header-search {
+background-color: white;
+width: 40%;
+}
+#header-search img{
+position:relative;
+top:10px;
+}
+#header-menu {
+background-color: white;
+width: 30%;
+}
+#header-menu ul{
+display:flex;
+}
+#header-menu ul li{ 
+margin: 1% 4%;
+list-style:none;
+}
+#header-mail {
+background-color: white;
+width: 15%;
+margin-top:2px;
+}
+#header-mail img{
+width:30px;
+padding:3%;
+margin:1%;
+border-radius:25px;
+border:1px solid purple;
+}
+#header-mail span {
+width:40px;
+height:40px;
+margin: 2%;
+padding:3%;
+position: relative;
+bottom: 15px;
+border-radius: 20px;
+background-color:rgba(128, 128, 128,0.3);
+}
+
+/***************    end of header nav    *********************/
+
+/*********************    adv               ***********************/
+#adv-div{
+width:972px;
+margin: 1rem auto ;
+}
+
+/******************      main news      ************************/
+#main-news{
+width:100%;
+display:flex;
+margin-top:2rem;
+}
+#news-area{
+width:70%;
+}
+#upper-news{
+width:100%;
+display:flex;
+background-color:rgba(128, 128, 128,0.4);
+border-radius:10px;
+}
+#upper-news-img{
+width:60%;
+}
+#upper-news-img img {
+width: 100%;
+height:100%;
+border-radius:10px 0 0 10px;
+object-fit:cover;
+
+}
+#upper-news-description {
+width:30%;
+padding: 2% 5%;
+}
+#upper-news-description h1 {
+font-size: 24px;
+font-weight: 700;
+font-family: sans-serif;
+}
+#upper-news-description p {
+font-family:sans-serif;
+}
+#read-more-main-news{
+font-weight:700;
+font-size:18px;
+}
+#read-more-main-news:hover{
+color:purple;
+}
+#lower-news {
+width: 100%;
+display:flex;
+}
+.main-news-cards{
+width:19%;
+margin-right:1%;
+margin-top:1%;
+}
+.img-news img{
+width:100%;
+object-fit:cover;
+border-radius:8px;
+}
+.description-news{
+font-size:15px;
+}
+#right-side-area {
+width: 30%;
+}
+#trending-area {
+    width: 80%;
+    height: 32%;
+    padding: 0 0 0 2%;
+    font-family: sans-serif;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    margin-left: 5%;
+}
+#trending-area p{
+border-left:5px solid purple;
+padding-left:20px;
+font-weight:700;
+font-size:20px;
+}
+#trending-area ol {
+padding: 0;
+margin: 0;
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: repeat(5, auto);
+list-style-position: inside;
+column-gap: 20px;
+row-gap:5px;
+grid-auto-flow: column;
+}
+#trending-area ol li{
+font-weight:700;
+}
+#adv-under-trending-area {
+width:100%;
+height:60%;
+}
+#adv-under-trending-area p {
+margin: 10% 0 0 10%;
+}
+#adv-under-trending-area img {
+width: 80%;
+margin-left:10%;
+}
+
+/****************************     stories form you      *********************/
+#stories-for-you-area {
+    width: 100%;
+    margin-top: 2rem;
+    display: flex;
+    font-family: sans-serif;
+}
+#stories-for-you{
+    width:70%;
+}
+    #stories-for-you p {
+        border-left: 5px solid purple;
+        padding-left: 20px;
+        font-weight: 700;
+        font-size: 20px;
+    }
+.story-card{
+    width:100%;
+    height:180px;
+    display:flex;
+    margin-bottom:2rem;
+}
+.story-img{
+    width:30%;
+}
+.story-img img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    border-radius:8px;
+}
+.story-text{
+    width:70%;
+}
+.story-text h1 {
+    margin: 0.3rem 0 0.5rem 1rem;
+    font-size: 24px;
+}
+.story-text h2 {
+    margin: 0 0 1rem 1rem;
+    font-size:19px;
+    font-weight:400;
+}
+.story-text h3 {
+    font-weight: 400;
+    display: inline-flex;
+    font-size: 18px;
+    margin:0;
+}
+.story-text span {
+    margin: 0 0 0 1rem;
+}
+    .story-text img{
+        width:20px;
+    }
+    #right-side {
+        width: 30%;
+    }
+.right-side-box {
+    width: 80%;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    margin-left: 10%;
+    margin-top: 10%;
+    margin-bottom: 2rem;
+}
+.right-side-box img{
+    width:100%;
+}
+#horoscope{
+    margin-top:200px;
+}
+#social-img {
+    margin-top:850px;
+}
